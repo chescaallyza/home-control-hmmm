@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Notifications</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <h2>Home Automation</h2>
+        <ul>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="../backend/logout.php">Logout</a></li>
+        </ul>
+    </nav>
+
+    <header class="header-text">
+        <h1>Notifications</h1>
+    </header>
+
+    <section class="notifications-section">
+        <table id="notifications-table">
+            <thead>
+                <tr>
+                    <th>Notification</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody id="notifications-list">
+                <!-- Notifications will be added here dynamically -->
+            </tbody>
+        </table>
+        <button id="clear-notifications">Clear Notifications</button>
+    </section>
+
+    <script src="../js/notif-script.js"></script>
+</body>
+</html>
